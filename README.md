@@ -1,8 +1,10 @@
 # Flask app template - Advanced
 
 > an advanced Flask app template, integrated bunch of Flask functions/extensions for Admin, Security, blueprint, RESTful structure.
+
 > fit for both python2 & python3
-> Thanks to: Miguel Grinberg <Flask Web Development>
+
+> Thanks to: Miguel Grinberg "Flask Web Development"
 
 ## Features:
 - configurations in `/config.py`
@@ -37,15 +39,14 @@ python manage.py runserver
 Bingo! Check app in your web browser at: http://localhost:5000, and http://localhost:5000/admin
 
 ## deploy to Heroku Server
-ready for deploy to [Heroku](https://www.heroku.com)
-`Procfile` and `runtime.txt` are included.
+ready for deploy to [Heroku](https://www.heroku.com), `Procfile` and `runtime.txt` are included.
 ```
-create app in heroku
-git push to heroku
-configure env. variables
-init database use manage.py
+# create app in heroku
+# git push to heroku
+# configure env. variables
+# init database by using manage.py
 ```
-refer to: https://devcenter.heroku.com/articles/getting-started-with-python
+for details, refer to: https://devcenter.heroku.com/articles/getting-started-with-python
 
 ## Expansion
 For production app, you can easily expand functions as you wish, such as:
