@@ -6,6 +6,8 @@
 
 > Thanks to: Miguel Grinberg "Flask Web Development"
 
+![snapshot](homepage-admin.png "snapshot")
+
 ## Features:
 - configurations in `/config.py`
 - Flask_Script: manage application, deployment, command line
